@@ -1,0 +1,28 @@
+# Entornos virtuales y archivos generados por Python
+.venv/
+venv/
+venv-*/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Configuración local y secretos
+.env
+.env.*
+!.env.example
+
+# Cachés e informes locales
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Archivos del sistema y del editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
